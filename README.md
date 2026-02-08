@@ -4,10 +4,11 @@ RAG Chatbot 🤖:
 2. It allows users to ask questions over custom documents using embeddings and vector search.
 
 Features:
-\- Document ingestion and chunking
-\- Vector embeddings
-\- Semantic search using ChromaDB
-\- LLM-powered responses
+
+- Document ingestion and chunking
+- Vector embeddings
+- Semantic search using ChromaDB
+- LLM-powered responses
 
 Project Structure:
 
