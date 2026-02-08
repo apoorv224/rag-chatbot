@@ -15,21 +15,13 @@ Features:
 Project Structure:
 
 RAG\_Chatbot\_GenAI/
-
 ├── src/
-
 │   ├── chatbot.py
-
 │   └── ingest.py
-
 ├── data/
-
 │   └── sample\_docs/
-
 ├── requirements.txt
-
 ├── .gitignore
-
 └── README.md
 
 
