@@ -32,10 +32,10 @@ RAG\_Chatbot\_GenAI/
 
 Setup:
 
-1\. Clone the repository
-2\. Install dependencies:
+1. Clone the repository
+2. Install dependencies:
    pip install -r requirements.txt
-3\. Create a .env file:
+3. Create a .env file:
    OPENAI\_API\_KEY=your\_api\_key\_here
 
 Run:
