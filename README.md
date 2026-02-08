@@ -3,12 +3,14 @@ RAG Chatbot 🤖:
 1. A Retrieval-Augmented Generation (RAG) chatbot built as a personal GenAI project.
 2. It allows users to ask questions over custom documents using embeddings and vector search.
 
+
 Features:
 
 - Document ingestion and chunking
 - Vector embeddings
 - Semantic search using ChromaDB
 - LLM-powered responses
+
 
 Project Structure:
 
@@ -30,6 +32,7 @@ RAG\_Chatbot\_GenAI/
 
 └── README.md
 
+
 Setup:
 
 1. Clone the repository
@@ -38,12 +41,15 @@ Setup:
 3. Create a .env file:
    OPENAI\_API\_KEY=your\_api\_key\_here
 
+
 Run:
 
-python src/ingest.py
-python src/chatbot.py
+1. python src/ingest.py
+2. python src/chatbot.py
+
 
 Learning Goals:
-\- Understand RAG pipelines
-\- Practice vector databases
-\- Build real GenAI applications
+
+- Understand RAG pipelines
+- Practice vector databases
+- Build real GenAI applications
