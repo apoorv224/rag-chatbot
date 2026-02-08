@@ -1,6 +1,6 @@
 RAG Chatbot 🤖:
 
-1. A Retrieval-Augmented Generation (RAG) chatbot built as a personal GenAI project.\
+1. A Retrieval-Augmented Generation (RAG) chatbot built as a personal GenAI project.
 2. It allows users to ask questions over custom documents using embeddings and vector search.
 
 Features:
