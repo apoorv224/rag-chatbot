@@ -22,17 +22,27 @@ It allows users to ask questions over custom documents using embeddings and vect
 
 \## Project Structure
 
+
+
 RAG\_Chatbot\_GenAI/
 
-├── chatbot.py        # Chat interface
+├── src/
 
-├── ingest.py         # Document ingestion
+│   ├── chatbot.py
 
-├── requirements.txt  # Dependencies
+│   └── ingest.py
+
+├── data/
+
+│   └── sample\_docs/
+
+├── requirements.txt
 
 ├── .gitignore
 
 └── README.md
+
+
 
 
 
@@ -42,21 +52,21 @@ RAG\_Chatbot\_GenAI/
 
 2\. Install dependencies:
 
-&nbsp;  pip install -r requirements.txt
+   pip install -r requirements.txt
 
 
 
 3\. Create a .env file:
 
-&nbsp;  OPENAI\_API\_KEY=your\_api\_key\_here
+   OPENAI\_API\_KEY=your\_api\_key\_here
 
 
 
 \## Run
 
-python ingest.py
+python src/ingest.py
 
-python chatbot.py
+python src/chatbot.py
 
 
 
